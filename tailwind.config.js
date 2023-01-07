@@ -13,6 +13,11 @@ module.exports = {
                 glare: "#22d3ee",
                 "glare-dark": "#0d9488",
             },
+            opacity: {
+                0: "0",
+                0.3: "0.3",
+                0.4: "0.4",
+            },
             animation: {
                 text: "gradient-x 5s ease infinite",
                 gradient: "gradient 3s ease infinite",
