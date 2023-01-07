@@ -16,14 +16,18 @@ const Home = () => {
                 <link rel={"icon"} href={"/favicon.ico"} />
             </Head>
             <main className={"w-full min-h-screen overflow-hidden select-none"}>
-                <div className={"relative flex justify-center items-center h-screen"}>
-                    <div className={"absolute w-120 h-80 rounded-full bg-gradient-to-br from-glare/[0] to-glare/[0.3] via-glare/[0] blur-2xl -ml-96"} />
-
+                <div
+                    className={
+                        "relative flex justify-center items-center h-screen pb-8"
+                    }
+                >
                     <div
                         className={
-                            "flex justify-center items-center"
+                            "absolute w-120 h-80 rounded-full bg-gradient-to-br from-glare/[0] to-glare/[0.3] via-glare/[0] blur-2xl -ml-96"
                         }
-                    >
+                    />
+
+                    <div className={"flex justify-center items-center"}>
                         <h1
                             className={
                                 "text-5xl font-black bg-gradient-to-r from-sky-700 to-cyan-800 via-teal-500 bg-clip-text text-transparent animate-text"
@@ -33,11 +37,15 @@ const Home = () => {
                         </h1>
                     </div>
 
-                    <div className={"absolute left-1/2 w-60 h-44 bg-gradient-radial from-glare-dark/[0.4] to-glare/[0] blur-2xl -z-1"} />
+                    <div
+                        className={
+                            "absolute left-1/2 w-60 h-44 bg-gradient-radial from-glare-dark/[0.4] to-glare/[0] blur-2xl -z-1"
+                        }
+                    />
                 </div>
             </main>
         </>
     );
-}
+};
 
 export default Home;
