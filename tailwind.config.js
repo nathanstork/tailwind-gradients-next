@@ -15,8 +15,8 @@ module.exports = {
             },
             opacity: {
                 0: "0",
-                0.3: "0.3",
                 0.4: "0.4",
+                0.5: "0.5",
             },
             animation: {
                 text: "gradient-x 5s ease infinite",

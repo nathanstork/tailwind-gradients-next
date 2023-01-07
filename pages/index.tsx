@@ -27,7 +27,7 @@ const Home = () => {
                 >
                     <div
                         className={
-                            "absolute w-120 h-80 rounded-full bg-gradient-to-br from-glare/0 to-glare/0.3 via-glare/0 blur-2xl -ml-96"
+                            "absolute w-120 h-80 rounded-full bg-gradient-to-br from-glare/0 to-glare/0.4 via-glare/0 blur-2xl -ml-96"
                         }
                     />
 
@@ -41,7 +41,7 @@ const Home = () => {
 
                     <div
                         className={
-                            "absolute left-1/2 w-60 h-44 bg-gradient-radial from-glare-dark/0.4 to-glare/0 blur-2xl"
+                            "absolute left-1/2 w-60 h-44 bg-gradient-radial from-glare-dark/0.5 to-glare/0 blur-2xl"
                         }
                     />
                 </div>
