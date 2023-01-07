@@ -6,6 +6,13 @@ module.exports = {
     ],
     theme: {
         extend: {
+            width: {
+                120: "30rem"
+            },
+            colors: {
+                glare: "#22d3ee",
+                "glare-dark": "#0d9488"
+            },
             animation: {
                 text: "gradient-x 5s ease infinite",
                 gradient: "gradient 3s ease infinite",
@@ -53,11 +60,17 @@ module.exports = {
                     },
                 },
             },
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            },
             backgroundSize: {
                 "50%": "50%",
                 "200%": "100%",
                 "400%": "400%",
             },
+            zIndex: {
+                '1': '1',
+            }
         },
     },
     plugins: [],
