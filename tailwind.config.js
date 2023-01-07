@@ -8,6 +8,11 @@ module.exports = {
         extend: {
             width: {
                 120: "30rem",
+                140: "35rem",
+            },
+            margin: {
+                100: "25rem",
+                112: "28rem",
             },
             colors: {
                 glare: "#22d3ee",
