@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+
+        --primary-glow: radial-gradient(
+            rgba(13, 148, 136, 0.4),
+            rgba(34, 211, 238, 0)
+        );
+        --secondary-glow: linear-gradient(
+            to bottom right,
+            rgba(34, 211, 238, 0),
+            rgba(34, 211, 238, 0),
+            rgba(34, 211, 238, 0.3)
+        );
+    }
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    background: black;
+}
